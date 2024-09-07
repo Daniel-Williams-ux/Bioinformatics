@@ -10,3 +10,7 @@ thislist <- list("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"
 # 'cherry'
 # 'orange'
 # 'kiwi'
+
+# Note: The search will start at index 2 (included) and end at index 5 (included).
+
+# Remember that the first item has index 1.
