@@ -12,17 +12,17 @@ length(v4) # 4
 # a. Missing values in R are indicated by NA (Not Available):
 x <- c(0.5, 0.7, NA)
 # Variable containing a vector with a misssing value
-x
+x # 0.5 0.7 <NA>
 
 # b. is.na()
 # is.na() can be used to test whether a value is missing. It returns a logical vector:
 # Test each value in a vector as to whether it is missing or not:​
 x <- c("a", NA, "c", "d", "e")​
 # x is the variable containing a vector with a missing value
-is.na(x)
+is.na(x) # FALSE TRUE FALSE FALSE FALSE
 
 # c. anyNA()
 # anyNA() can be used to evaluate whether a vector contains any missing (NA) values:
 x <- c("a", NA, "c", "d", "e")​
 # x is the variable containing a vector with a misssing value
-anyNA(x)
+anyNA(x) # TRUE
