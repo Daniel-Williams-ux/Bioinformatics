@@ -12,3 +12,7 @@ all(v > 10)
 
 # which() returns the indices/locations of the TRUE values (interpreted as as "Which index positions are TRUE?"):​
 which(v > 10)
+# Alert: The index positions of a vector in R begin counting from 1.
+
+# sum() returns the number of logicals that are TRUE:​
+sum(v > 10)
