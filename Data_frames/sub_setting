@@ -1,0 +1,18 @@
+# Data Frame Subsetting
+# You can select a subset of a data frame by placing the desired rows and columns, separated by a comma, within square brackets. You can use either an index position or a name.
+
+# Create a data frame:
+​
+df <- data.frame(name=c("Carl","Diane","Sally","Ben","Kimmy"),
+                 age=c(42,40,17,14,12),
+                 sex=c("Male","Female","Female","Male","Female"))
+​
+df
+# A data.frame: 5 × 3
+# name	age	sex
+# <chr>	<dbl>	<chr>
+# Carl	42	Male
+# Diane	40	Female
+# Sally	17	Female
+# Ben	14	Male
+# Kimmy	12	Female
